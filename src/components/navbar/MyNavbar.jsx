@@ -6,7 +6,7 @@ function MyNavbar (){
     const expand = 'md'
     return(
         
-        <Navbar key={expand} expand={expand} style={{backgroundColor : '#ccc'}} className=" mb-3 py-3">
+        <Navbar key={expand} expand={expand} style={{backgroundColor : '#a2d9ff'}} className=" py-3">
           <Container  >
             <Navbar.Brand className="lalezar">بلاگ نکست وان کد </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />

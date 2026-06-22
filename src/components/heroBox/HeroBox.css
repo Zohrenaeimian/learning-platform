@@ -1,0 +1,39 @@
+*{
+    font-family: 'yekan' , sans-serif;
+}
+
+.heroBoxContainer {
+    width: 250px;
+    background: #fff;
+    border-radius: 77% 23% 44% 56% / 51% 63% 37% 49%;
+    margin: auto;
+    
+}
+
+.heroBoxHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+
+.heroBoxHeader .heroBoxTitle {
+    padding-right: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.heroBoxContainer .heroBoxCount {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.heroBoxItem {
+    display: flex;
+     align-items: center;
+    justify-content: center;
+
+}
