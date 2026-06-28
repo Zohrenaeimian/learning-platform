@@ -21,7 +21,7 @@ function Hero() {
       <div className="heroContainer">
         <Container>
           <Row className="align-item-centar">
-            <Col className="col-12 col-md-6" data-aos="fade-left">
+            <Col className="col-12 col-md-6 right-col" data-aos="fade-left">
               <img src={heroImage} className="heroImage img-fluid" />
             </Col>
 

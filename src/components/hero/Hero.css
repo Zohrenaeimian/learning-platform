@@ -2,6 +2,12 @@
     background-color: #a2d9ff;
 }
 
+.right-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .heroImage {
     background-color: #fff;
     border-radius: 74% 26% 73% 27% / 49% 59% 41% 51% ;
