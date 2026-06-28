@@ -1,0 +1,68 @@
+.article-card {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 150ms;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-card:hover {
+    transform: translateY(-5px);
+}
+
+.article-card-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.article-title {
+    min-height: 30px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.article-description {
+    text-align: justify;
+    color: #686767;
+    min-height: 72px;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.read-more {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.read-more span {
+    margin-left: 7px;
+}
+
+.read-more:hover {
+    color: rgb(222, 63, 116);
+    transition: all 150ms;
+    cursor: pointer;
+}
+
+.card-footer {
+    color: rgb(117, 117, 117);
+}
+
+.article-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.article-card a{
+    text-decoration: none;
+    color: #484848;
+}
