@@ -5,6 +5,7 @@ import "./AddArticle.css";
 import axios from "axios";
 import { useState } from "react";
 import Swal from "sweetalert2";
+import Footer from "../../components/footer/Footer";
 
 function AddArticle() {
   const [formData, setFormData] = useState({});
@@ -123,6 +124,7 @@ function AddArticle() {
           </Button>
         </Form>
       </div>
+      <Footer/>
     </>
   );
 }
